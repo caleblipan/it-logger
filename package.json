@@ -11,12 +11,16 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-moment": "^1.1.1",
+    "react-redux": "7.2.4",
     "react-scripts": "4.0.3",
+    "redux": "4.1.1",
+    "redux-devtools-extension": "2.13.9",
+    "redux-thunk": "2.3.0",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "PORT=3002 react-scripts start",
-    "json-server": "json-server --watch db.json --host nicework.id --port 3001",
+    "start": "react-scripts start",
+    "json-server": "json-server --watch db.json --port 3001",
     "dev": "concurrently \"npm start\" \"npm run json-server\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -43,6 +47,5 @@
   "devDependencies": {
     "concurrently": "^6.2.1",
     "json-server": "^0.16.3"
-  },
-  "proxy": "http://nicework.id:3001"
+  }
 }
