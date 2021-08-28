@@ -2,17 +2,52 @@
   "logs": [
     {
       "id": 1,
-      "message": "Fixed hard drive on workstation 002",
+      "message": "FIXED 002",
       "attention": false,
       "tech": "John Doe",
-      "date": "2019-05-31T16:18:04.245Z"
+      "date": "2021-08-28T04:47:37.228Z"
     },
     {
       "id": 2,
-      "message": "1122 wireless down",
+      "message": "Fixed issue on 1122",
+      "attention": false,
+      "tech": "Sara Wilson",
+      "date": "2021-08-28T04:41:14.618Z"
+    },
+    {
+      "message": "Fixed apache2 error log",
+      "attention": false,
+      "tech": "Asep Supriatna",
+      "date": "2021-08-28T06:59:10.644Z",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "message": "FIXED 1123",
+      "attention": false,
+      "tech": "Sam Smith",
+      "date": "2021-08-28T07:05:11.582Z"
+    },
+    {
+      "message": "Come up another issue on 2525",
+      "attention": true,
+      "tech": "Sam Smith",
+      "date": "2021-08-28T07:00:13.145Z",
+      "id": 6
+    },
+    {
+      "message": "Fixed machine 1156",
+      "attention": false,
+      "tech": "Asep Supriatna",
+      "date": "2021-08-28T07:00:37.773Z",
+      "id": 7
+    },
+    {
+      "message": "CRITICAL ERROR MACHINE #2562",
       "attention": true,
       "tech": "Sara Wilson",
-      "date": "2019-05-31T15:46:48.690Z"
+      "date": "2021-08-28T07:02:56.984Z",
+      "id": 8
     }
   ],
   "techs": [
@@ -35,6 +70,11 @@
       "firstName": "Asep",
       "lastName": "Supriatna",
       "id": 4
+    },
+    {
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "id": 5
     }
   ]
 }
